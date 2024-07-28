@@ -101,7 +101,7 @@ body {
 	justify-content: center;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff;
+	color: black; /*changement du titre en noir au lieu de blanc */
 	background-color: #BEB45A;
 	border-radius:0 ;
 }
@@ -243,6 +243,18 @@ input[type="submit"] {
 	background-color: #BEB45A;
 	padding: .5em 1em
 }
+
+/*css micro data */
+.contact-info {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #000;
+	text-align: center;
+	width: 100%;
+}
+
+
+
 
 @media all and (max-width: 1180px) {
 	.picture {
